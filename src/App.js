@@ -14,7 +14,6 @@ function App() {
     //add
   function handleSubmit(e) {
     
-    e.preventDefault()
     const newTodo = {
       id: new Date().getTime(),
       text: job,
